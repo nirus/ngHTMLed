@@ -1,0 +1,18 @@
+<div class="jumbotron">
+  <h1>ng-HTMLed.js</h1>
+  <p class="lead">
+    <img src="images/logo.jpg" alt="HTMLed" width="250px"><br>
+    A Simple i18n library for Angular apps
+  </p>  
+</div>
+
+<div class="row marketing jumbotron">
+  <h4>Format Example</h4><!--Combining two keys to form a sentence-->
+  <p><strings format>%txt{"test2"} for %txt{"string2"}</strings></p>
+  
+  <h4>Text-id Example</h4> <!--text-id Overrides the default text-->
+  <p><strings text-id="string1">%txt{"test"} : %txt{"test2"}</strings></p>
+  
+  <h4>Default Example</h4><!--If text ID is not valid or not available default text is rendered-->
+  <p><strings text-id="no-id">I am a default text as fallback text</strings></p>    
+</div>
