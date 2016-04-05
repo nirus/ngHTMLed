@@ -6,7 +6,7 @@ Efficient i18n Transltion for Angular JS framework
 This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
 version 0.15.1.
 
-## Build & development
+## To run the sample app
 
 Run `grunt` for building and `grunt serve` for preview.
 
