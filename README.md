@@ -1,5 +1,13 @@
-# ngHTMLed
-Efficient i18n Transltion for Angular JS framework
+# ngHTMLed v 0.1 intial release
+An Efficient i18n Translation for Angular JS framework
+
+## Source
+
+Download [prodution](https://github.com/nirus/ngHTMLed/blob/master/app/dist/nghtmled.js)
+
+### Issue's tracking and questionaire
+
+Please feel free to log the issueson github or ask a stackoverflow question and [mail](mailto:nirus@live.in) the link to me.
 
 ## To run the sample app
 
