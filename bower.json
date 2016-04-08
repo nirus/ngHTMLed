@@ -20,7 +20,11 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "app/**",
+    "app/*.*",
+    "app/**/*.*",
+    "!app/dist/*.*"
   ],
   "devDependencies": {
     "angular-mocks": "^1.4.0"
