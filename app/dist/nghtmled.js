@@ -1,3 +1,12 @@
+/*         ngHTMLed.js  ver 0.1
+ * library written by Niranjan Kumar - A.K.A - N!Ru$
+ * this library requires Angular JS to be loaded as a dependency module
+ * at Config stage setup your language configurtion
+ * Your ".properties" file should be in JSON format.
+ * Your ".properties" file name should be exactly the browser returned language. 
+ * goto http://jsfiddle.net/nirus/9FVTf/ to get the file name you want to set based on your browser eg: en-US.properties for english US language
+ * contact me for any queries : nirus@live.in
+ */
 
 angular.module('ngHTMLed', ['ng'])
     .provider("$HTMLed", ["$httpProvider", function($httpProvider) {
@@ -81,6 +90,7 @@ angular.module('ngHTMLed', ['ng'])
                 /**
                  * formats the string that supports format attribute
                  * @param  {String} str
+                 * @return  {String} str
                  */
                 function format(str) {
                     var txt = str.match(new RegExp(/%txt{([^}]+)}/g));
