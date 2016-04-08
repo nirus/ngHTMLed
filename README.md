@@ -33,10 +33,10 @@ Command: `bower install ngHtmled`
 - `langBundle` : Location or folder name of your properties file residing in.
 - `langPref` :  Valid only when `autoDetect` is false. Read the **False** section under `autoDetect`.
 
-## $HTMLed
+## Dependency injection: $HTMLed
 
 - Can be dependency injected anywhere to get the properties or configuration in your controller, factory or services
-    - `$HTMLed.bundle()`: Returns the json object of properties file from which you can access as key/pair value in your code.
+    - `$HTMLed.bundle(KEY)`: If `KEY` is null Returns the json object of properties file from which you can access as key/pair value in your code. Else will return the value for the passed `KEY`.
     - `$HTMLed.configuration()`: Returns the configuration setup made. 
 
 --------
