@@ -4,9 +4,49 @@
   "dependencies": {
     "angular": "^1.4.0"
   },
+  "main": "app/dist/*.js",
+  "ignore": [
+    "source",
+    "spec",
+    ".bowerrc",
+    ".gitignore",
+    ".jshintignore",
+    ".jshintrc",
+    "bower.json",
+    "gruntfile.js",
+    "package.json",
+    "README.md",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
   "devDependencies": {
     "angular-mocks": "^1.4.0"
   },
   "appPath": "app",
-  "moduleName": "nghtmledApp"
+  "moduleName": "nghtmledApp",
+  "homepage": "https://github.com/nirus/ngHTMLed",
+  "authors": [
+    "nirus <niru@live.in>"
+  ],
+  "description": "i18n translation library for Angular JS apps",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "i18n",
+    "angularjs",
+    "translation",
+    "translate",
+    "ngtranslate",
+    "angular",
+    "translate",
+    "angularjs",
+    "i18n",
+    "multilanguage",
+    "support"
+  ],
+  "license": "MIT"
 }
