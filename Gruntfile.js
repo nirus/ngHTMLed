@@ -316,15 +316,15 @@ module.exports = function (grunt) {
     //     }
     //   }
     // },
-    // uglify: {
-    //   dist: {
-    //     files: {
-    //       '<%= yeoman.dist %>/scripts/scripts.js': [
-    //         '<%= yeoman.dist %>/scripts/scripts.js'
-    //       ]
-    //     }
-    //   }
-    // },
+    uglify: {
+      lib: {
+        files: {
+          'app/dist/nghtmled.min.js': [
+            'app/dist/nghtmled.js'
+          ]
+        }
+      }
+    },
     // concat: {
     //   dist: {}
     // },
@@ -501,6 +501,10 @@ module.exports = function (grunt) {
     'usemin',
     'htmlmin'
   ]);
+  
+  grunt.registerTask('build-lib', [
+    "uglify:lib"
+  ])
 
   grunt.registerTask('default', [
     'newer:jshint',

@@ -8,6 +8,8 @@
  * contact me for any queries : nirus@live.in
  */
 
+//: Minify Task `grunt build-lib`
+
 angular.module('ngHTMLed', ['ng'])
     .provider("$HTMLed", ["$httpProvider", function($httpProvider) {
         /**
