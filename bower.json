@@ -5,6 +5,9 @@
     "angular": "^1.4.0"
   },
   "main": "app/dist/*.js",
+  "install":{
+    "path":"app"  
+  },
   "ignore": [
     "source",
     "spec",
