@@ -76,7 +76,11 @@ angular.module('ngHTMLed', ['ng'])
                 configuration: function() {
                     return htmled.config;
                 },
-                bundle: function() {
+                bundle: function(key) {
+                    if(key){
+                        return htmled.json[key];
+                    }
+                    
                     return htmled.json;
                 }
             };
