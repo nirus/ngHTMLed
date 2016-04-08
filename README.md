@@ -6,6 +6,10 @@ An Efficient i18n translation library for Angular JS framework
 
 Download [prodution](https://github.com/nirus/ngHTMLed/blob/master/app/dist/nghtmled.js) unminified.
 
+## Install via Bower
+
+Command: `bower install ngHtmled`
+
 ## Directive API usage: Refer **main.html**.
 
 - `<strings text-id="TEXT_ID">DEFAULT_TEXT_HERE</strings>` 
