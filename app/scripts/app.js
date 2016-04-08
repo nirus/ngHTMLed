@@ -13,7 +13,7 @@ angular
   .config(["$HTMLedProvider", function($HTMLedProvider){
       $HTMLedProvider.setup({
           langBundle:"properties",
-          autoDetect:false,
+          autoDetect:true,
           langPref:"en-US"
       });
   }]);
